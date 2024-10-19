@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Anton';
+  src: url('./assets/fonts/anton.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/poppins.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+body{
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+
+.primary{
+  color: #01164D;
+}
+
+.primaryBack{
+  background-color: #01164D;
+}
+
+.secondary{
+  color: #5E17EB;
+}
+
+.secondaryBack{
+  background-color: #5E17EB;
+}
+
+body{
+  background-color: #ECF2FE;
+}
+
+.logoName{
+  font-family: "Anton";
+}
