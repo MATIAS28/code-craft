@@ -45,3 +45,8 @@ body{
 .logoName{
   font-family: "Anton";
 }
+
+
+.border-l-4{
+  border-color: #5E17EB;
+}

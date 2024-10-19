@@ -9,8 +9,8 @@
 
 export const DescriptionComponent = () => {
 	return(
-		<div className="secondaryBack rounded-lg flex items-center justify-between md:justify-around p-3 md:p-6 md:min-h-screen">
-			<div className="w-full md:w-3/5">
+		<div className="secondaryBack rounded-lg flex items-center justify-between md:justify-around p-3 md:p-6">
+			<div className="w-full">
 				<div className="flex items-start justify-between">
 					<h5 className="text-base md:text-xl lg:text-4xl font-extrabold mb-4 text-white w-3/5 sm:w-full">
 					Haz Crecer tu Negocio en San Juan con una Web que Atrae Clientes

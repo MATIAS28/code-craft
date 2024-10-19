@@ -5,9 +5,9 @@
 
 export const ServicesComponent = ({qo}) => {
 	return(
-		<div ref={qo} className="flex items-center min-h-screen">
+		<div ref={qo} className="flex items-start h-fit my-20">
 			<div>
-				<h4 className="logoName primary text-lg text-center md:text-2xl lg:text-4xl">
+				<h4 className="logoName primary text-lg  md:text-2xl border-l-4 pl-4">
 				¿Que ofrecemos?
 				</h4>
 

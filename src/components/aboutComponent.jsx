@@ -5,14 +5,14 @@
 
 export const AboutComponent = ({about}) => {
 	return(
-		<div ref={about} className="flex items-center md:min-h-screen my-16 md:my-0">
-			<div>
-				<div className="w-full">
-				<h3 className="logoName primary text-center text-lg  md:text-2xl lg:text-4xl">
+		<div ref={about} className="flex md:items-center justify-center my-16 p-6 md:my-0 bg-white md:min-h-screen">
+			<div className="md:w-[90%]">
+				<div className="">
+				<h3 className="logoName primary text-lg  md:text-2xl border-l-4 pl-4">
 					Sobre Nosotros
 				</h3>
 
-				<p className="text-center text-sm md:text-lg">
+				<p className="text-xs md:text-lg mt-6">
 					Somos una empresa dedicada al diseño y desarrollo 
 					de páginas web personalizadas, con un enfoque en 
 					optimización SEO y adaptación a dispositivos móviles. 
@@ -22,8 +22,8 @@ export const AboutComponent = ({about}) => {
 			</div>
 
 			<div className="flex justify-center mt-10">
-				<div className="flex items-start bg-white rounded md:w-2/4">
-					<div className="w-1/3 p-3">
+				<div className="flex items-start bg-white rounded h-56 md:h-32">
+					<div className="primaryBack text-white w-2/5 p-3 h-full">
 						<b className="text-sm md:text-lg">Calidad</b>
 						<p className="text-xs md:text-base font-light">
 							Entregar productos de alta calidad que superen las 
@@ -31,7 +31,7 @@ export const AboutComponent = ({about}) => {
 						</p>
 					</div>
 
-					<div className="w-1/3 secondaryBack text-white p-3">
+					<div className="w-2/5 secondaryBack text-white p-3 h-full">
 						<b className="text-sm md:text-lg">Innovación</b>
 						<p className="text-xs md:text-base font-light">
 							Mantenernos actualizados con las últimas tendencias 
@@ -39,7 +39,7 @@ export const AboutComponent = ({about}) => {
 						</p>
 					</div>
 
-					<div className="w-1/3 p-3">
+					<div className="primaryBack text-white w-2/5 p-3 h-full">
 						<b className="text-sm md:text-lg">Compromiso</b>
 						<p className="text-xs md:text-base font-light">
 							Asumir cada proyecto con responsabilidad y dedicación, 
