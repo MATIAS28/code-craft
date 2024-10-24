@@ -32,15 +32,14 @@ function App() {
       <div className="">
         <HeroComponent/>
 
-        <AboutComponent about={sections.about}/>
-
-        <div className="flex justify-center p-3 md:p-6 space-y-24">
-          <div className="w-[90%]">
+        <div className="flex justify-center p-3 md:p-6">
+          <div className="w-[90%] space-y-80">
+            <AboutComponent about={sections.about}/>
             <ServicesComponent qo={sections.qo}/>
-            <DescriptionComponent/>
-            <PricesComponent prices={sections.prices}/>
           </div>
         </div>
+          <DescriptionComponent/>
+          <PricesComponent prices={sections.prices}/>
       </div>
       <FooterComponent/>
     </div>

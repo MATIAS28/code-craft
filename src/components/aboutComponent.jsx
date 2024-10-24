@@ -5,8 +5,8 @@
 
 export const AboutComponent = ({about}) => {
 	return(
-		<div ref={about} className="flex md:items-center justify-center my-16 p-6 md:my-0 bg-white md:min-h-screen">
-			<div className="md:w-[90%]">
+		<div ref={about} className="flex md:items-center justify-center my-16 md:my-0">
+			<div className="">
 				<div className="">
 				<h3 className="logoName primary text-lg  md:text-2xl border-l-4 pl-4">
 					Sobre Nosotros

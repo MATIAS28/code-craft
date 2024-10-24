@@ -12,7 +12,7 @@ export const PricesComponent = ({prices}) => {
 	}, [])
 
 	return(
-		<div ref={prices} className="min-h-screen my-12 py-6">
+		<div ref={prices} className="relative min-h-screen my-12 py-6">
 			
 			<div className="flex justify-center">
 				<div>
@@ -36,8 +36,8 @@ export const PricesComponent = ({prices}) => {
 
 			<div className="flex justify-center overflow-x-auto h-1/4">
 
-				<div className={`flex items-start md:grid 
-				${service && service.prices.length == 2 ? 'md:grid-cols-2':'md:grid-cols-3'} gap-4 md:gap-3 rounded mt-10 w-full`}>
+				<div className={`flex items-start md:grid w-3/4
+				${service && service.prices.length == 2 ? 'md:grid-cols-2':'md:grid-cols-3'} gap-4 md:gap-3 rounded mt-10`}>
 					{service && service.prices.length > 0 &&
 						service.prices.map((level, i) => {
 							return(

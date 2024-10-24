@@ -5,13 +5,13 @@
 
 export const ServicesComponent = ({qo}) => {
 	return(
-		<div ref={qo} className="flex items-start h-fit my-20">
+		<div ref={qo} className="flex items-start my-20">
 			<div>
 				<h4 className="logoName primary text-lg  md:text-2xl border-l-4 pl-4">
 				¿Que ofrecemos?
 				</h4>
 
-			<div className="grid gap-2 grid-cols-2 md:grid-cols-3 rounded mt-10">
+			<div className="grid gap-2 grid-cols-1 md:grid-cols-3 rounded mt-10">
 				<div className="bg-white p-4">
 					<img src="/icons/design.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2"/>
 					<b className="text-sm md:text-lg">Creación de Sitios Web Personalizados</b>
