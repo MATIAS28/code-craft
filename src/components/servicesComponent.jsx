@@ -22,7 +22,7 @@ export const ServicesComponent = ({qo}) => {
 				</div>
 
 				<div className="bg-white p-4">
-					<img src="/icons/mp.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2"/>
+					<img src="/icons/mp.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2" alt="Diseño web san juan"/>
 					<b className="text-sm md:text-lg">Innovación</b>
 					<p className="text-xs md:text-base font-light">
 						Mantenernos actualizados con las últimas tendencias 
@@ -31,7 +31,7 @@ export const ServicesComponent = ({qo}) => {
 				</div>
 
 				<div className="bg-white p-4">
-					<img src="/icons/google.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2"/>
+					<img src="/icons/google.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2" alt="Diseño web san juan"/>
 					<b className="text-sm md:text-lg">Compromiso</b>
 					<p className="text-xs md:text-base font-light">
 						Asumir cada proyecto con responsabilidad y dedicación, 
@@ -40,7 +40,7 @@ export const ServicesComponent = ({qo}) => {
 				</div>
 
 				<div className="bg-white p-4">
-					<img src="/icons/card.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2"/>
+					<img src="/icons/card.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2" alt="Diseño web san juan"/>
 					<b className="text-sm md:text-lg">Integración con Plataformas de Pago</b>
 					<p className="text-xs md:text-base font-light">
 						Configuramos pasarelas de pago seguras y confiables, como 
@@ -49,7 +49,7 @@ export const ServicesComponent = ({qo}) => {
 				</div>
 
 				<div className="bg-white p-4">
-					<img src="/icons/web.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2"/>
+					<img src="/icons/web.png" className="secondaryBack p-2 w-12 h-12 rounded mb-2" alt="Diseño web san juan"/>
 					<b className="text-sm md:text-lg">Configuración de Dominio y Hosting</b>
 					<p className="text-xs md:text-base font-light">
 						Te ayudamos a registrar tu dominio y configurar el hosting adecuado para 

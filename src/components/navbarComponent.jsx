@@ -6,7 +6,7 @@ export const NavbarComponent = ({scrollToSection}) => {
 	return(
 		<nav className="sticky flex items-center justify-between p-3 md:p-6">
 			<div className="flex items-center">
-				<img className="w-5 md:w-10 mr-2" src="/logo.png"/>
+				<img className="w-5 md:w-10 mr-2" src="/logo.png" alt="code craft"/>
 				<span className="logoName primary text-lg md:text-4xl">CODE CRAFT</span>
 			</div>
 

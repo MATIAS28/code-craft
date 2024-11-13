@@ -48,7 +48,7 @@ export const FooterComponent = () => {
 						</a>
 
 						<div className="flex items-center">
-							<img className="w-3 md:w-5 mr-2" src="/icons/phone.png"/>
+							<img className="w-3 md:w-5 mr-2" src="/icons/phone.png" alt="code craft"/>
 							<span className="text-xs md:text-sm font-light">264-587-5117</span>
 						</div>
 
