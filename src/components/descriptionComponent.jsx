@@ -26,7 +26,7 @@ export const DescriptionComponent = () => {
 			</div>
 
 			<div className="flex justify-center w-full">
-				<img className="md:w-1/3" src="/banners/b3.png" alt="Diseño web san juan"/>
+				<img className="md:w-1/3" src="/banners/b3.png" alt="Páginas web económicas en San Juan, diseño optimizado para SEO"/>
 			</div>
 
 		</div>
