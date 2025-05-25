@@ -29,17 +29,14 @@ function App() {
   return (
     <div>
       <NavbarComponent scrollToSection={scrollToSection}/>
-      <div className="">
+      <div className="flex justify-center">
+      <div className="w-[90%] space-y-40">
         <HeroComponent/>
-
-        <div className="flex justify-center p-3 md:p-6">
-          <div className="w-[90%] space-y-80">
-            <AboutComponent about={sections.about}/>
-            <ServicesComponent qo={sections.qo}/>
-          </div>
-        </div>
-          <DescriptionComponent/>
-          <PricesComponent prices={sections.prices}/>
+        <AboutComponent about={sections.about}/>
+        <ServicesComponent qo={sections.qo}/>
+        <DescriptionComponent/>
+        <PricesComponent prices={sections.prices}/>
+      </div>
       </div>
       <FooterComponent/>
     </div>

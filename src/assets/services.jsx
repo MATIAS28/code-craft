@@ -112,7 +112,7 @@ export const services = [
         "Responsive design (adaptable a móviles y tablets)",
         "Landing page simple (3 diseños a elección)"
       ],
-      price: 50
+      price: 20
     },
     {
       level: "Intermedio",
@@ -121,24 +121,12 @@ export const services = [
       features: [
         "Todo lo del plan básico",
         "Pestañas Quienes somos, Staff, Novedades, Contacto",
-        "Diseño personalizado",
-        "Optimización básica de SEO",
-        "Integración con redes sociales"
+        "Diseño personalizado partiendo de una plantilla",
+        "SEO",
+        "Integración con redes sociales",
+		"Botón de WhatsApp"
       ],
-      price: 100
-    },
-    {
-      level: "Avanzado",
-      subtitle: "Experiencia de usuario excepcional",
-      description: "Experiencia de usuario excepcional",
-      features: [
-        "Todo lo del plan intermedio",
-        "Diseño avanzado",
-        "Animaciones básicas",
-        "Optimización de velocidad",
-        "Backend simple con Node.js"
-      ],
-      price: 150
+      price: 50
     }
   ]
 },
@@ -147,35 +135,37 @@ export const services = [
   title: "Tiendas Online",
   prices: [
     {
-      level: "Básico",
+      level: "Inicial",
       subtitle: "Pack Inicial - Tienda Online Lista Rápidamente",
       description: "Tienda online funcional, rápida de implementar y con un diseño atractivo, enfocada en la simplicidad y efectividad.",
       features: [
-        "Diseño a elección (3 plantillas prediseñadas).",
-	      "Carga de hasta 10 productos con imágenes, descripciones y precios.",
-	      "Integración de métodos de pago locales.",
-	      "Configuración de envíos locales.",
-	      "Responsive design (adaptable a móviles y tablets).",
-	      "SEO básico (títulos y descripciones optimizadas).",
-	      "Implementación en menos de 10 días.",
+		"Diseño a elección (3 plantillas prediseñadas).",
+		"Páginas: Quiénes somos y Contacto.",
+		"Carga de hasta 5 productos con imágenes, descripciones y precios.",
+		"Integración de métodos de pago",
+		"Responsive design (adaptable a móviles y tablets)",
+		"Botón de WhatsApp",
+		"Enlace a redes sociales",
+		"Implementación en en 5 días"
+
       ],
-      price: 150
+      price: 50
     },
     {
       level: "Avanzado",
       subtitle: "Pack Profesional - Tienda Personalizada y Optimizada",
       description: "Solución completa para negocios en crecimiento que buscan personalización avanzada y optimización para mejorar la experiencia del cliente.",
       features: [
-        "Diseño personalizado adaptado a la marca del cliente (colores, tipografía, imágenes).",
-	      "Carga de hasta 30 productos con categorización avanzada.",
-	      "Integración de métodos de pago globales (PayPal, Stripe, MercadoPago, TodoPago).",
-	      "Optimización avanzada de SEO (meta tags, URLs amigables, velocidad).",
-	      "Integración de reseñas y testimonios para productos.",
-	      "Optimización de velocidad (compresión de imágenes, uso de plugins de caché).",
-	      "Integración con redes sociales (Facebook, Instagram, WhatsApp).",
-	      "Implementación en menos de 20 días.",
+		"Todo lo del plan inicial",
+		"Diseño personalizado partiendo de una plantilla",
+		"Páginas: Staff, Novedades y Galería de imágenes",
+		"Carga de hasta 12 productos con imágenes, descripciones y precios.",
+		"Configuración de envíos locales.",
+		"SEO",
+		"Manual básico de uso en video: para que puedas cargar nuevos productos",
+		"Implementación en 7 días"
       ],
-      price: 250
+      price: 100
     }
   ],
 }

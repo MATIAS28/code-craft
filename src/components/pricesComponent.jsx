@@ -12,7 +12,7 @@ export const PricesComponent = ({prices}) => {
 	}, [])
 
 	return(
-		<div ref={prices} className="relative min-h-screen my-12 py-6">
+		<div ref={prices} className="relative my-12 py-6">
 			
 			<div className="flex justify-center">
 				<div>
