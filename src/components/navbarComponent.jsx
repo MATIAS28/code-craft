@@ -8,7 +8,7 @@ export const NavbarComponent = ({scrollToSection}) => {
 			<div className="flex justify-between w-[90%]">
 				<div className="flex items-center">
 					<img className="w-5 md:w-10 mr-2" src="/logo.png" alt="code craft"/>
-					<span className="logoName primary text-lg md:text-4xl">CODE CRAFT</span>
+					<h1 className="logoName primary text-lg md:text-4xl">CODE CRAFT</h1>
 				</div>
 
 				<div className="flex text-xs md:text-xl font-semibold">

@@ -18,7 +18,7 @@ export const PriceCard = ({level, price, subtitle, description, features}) => {
 				{features.map((feature, i) => {
 					return(
 					<div className="flex items-start" key={i}>
-					<img src={checkIcon} className="secondaryBack w-5 p-1 rounded-full mr-2"/>
+					<img src={checkIcon} className="secondaryBack w-5 p-1 rounded-full mr-2" alt="diseno-web-san-juan-negocio"/>
 					<p className="text-xs md:text-sm font-light">{feature}</p>
 					</div>
 					)

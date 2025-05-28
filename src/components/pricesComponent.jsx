@@ -16,9 +16,9 @@ export const PricesComponent = ({prices}) => {
 			
 			<div className="flex justify-center">
 				<div>
-					<h3 className="logoName primary text-lg text-center md:text-2xl lg:text-4xl">
+					<h6 className="logoName primary text-lg text-center md:text-2xl lg:text-4xl">
 						PRECIOS
-					</h3>
+					</h6>
 
 					<div className="flex items-center space-x-2 mt-6">
 						{services && services.length > 0 && services.map((Service, i) => {
